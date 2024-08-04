@@ -1,14 +1,8 @@
 .container{
     display:grid;
     grid-template-columns: auto;
-    gap: 15px;
+    gap: 50px;
     width:100%   
-}
-.btn{
-    width: 100%;
-    display: flex;
-    text-align: center;
-    border: 1px solid black;
 }
 
 .option {
@@ -40,5 +34,5 @@
     background-color: red !important;
 }
 .option:hover {
-    background-color: lightgray;
+    background-color: rgb(178, 174, 174);
 }
