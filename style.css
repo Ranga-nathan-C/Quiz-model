@@ -1,0 +1,44 @@
+.container{
+    display:grid;
+    grid-template-columns: auto;
+    gap: 15px;
+    width:100%   
+}
+.btn{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.option span {
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    
+    background-color: red;
+    color: white;
+}
+.option.correct span,
+.option.correct {
+    background-color: green !important;
+}
+.option.incorrect {
+    background-color: red !important;
+}
+.option:hover {
+    background-color: lightgray;
+}
